@@ -1,0 +1,488 @@
+Post_ID,Text,Timestamp,Platform,Engagement,Sentiment_Label
+p5232,I saw protest issue near Tech Institute today,2024-03-10 04:14:00,Twitter,246,Negative
+p7368,I saw protest issue near Tech Institute today,2024-07-22 00:46:00,Instagram,92,Positive
+p6390,I saw mental health issue near Tech Institute today,2024-04-05 06:12:00,Twitter,23,Neutral
+p2520,I saw protest issue near ABC University today,2024-07-03 13:22:00,Instagram,297,Positive
+p1459,I saw unsafe issue near ABC University today,2024-10-26 02:52:00,Twitter,4,Negative
+p4675,I saw mental health issue near XYZ Campus today,2024-10-04 00:46:00,Instagram,193,Negative
+p9778,I saw police issue near North College today,2024-07-25 23:05:00,Twitter,170,Negative
+p5049,I saw unsafe issue near North College today,2024-09-26 06:58:00,Twitter,120,Negative
+p2518,I saw safety issue near ABC University today,2024-09-22 23:19:00,Instagram,5,Neutral
+p6896,I saw help issue near ABC University today,2024-05-04 21:29:00,Twitter,213,Positive
+p9911,I saw police issue near North College today,2024-11-23 03:22:00,Twitter,162,Negative
+p8870,I saw help issue near North College today,2024-10-12 06:39:00,Instagram,293,Neutral
+p1977,I saw help issue near XYZ Campus today,2024-09-17 13:41:00,Instagram,212,Positive
+p5884,I saw protest issue near XYZ Campus today,2024-06-20 12:33:00,Instagram,122,Positive
+p5570,I saw police issue near North College today,2024-08-23 07:33:00,Twitter,281,Neutral
+p1585,I saw mental health issue near Tech Institute today,2024-02-06 03:37:00,Twitter,139,Negative
+p7038,I saw mental health issue near Tech Institute today,2024-07-19 17:43:00,Instagram,246,Neutral
+p8647,I saw mental health issue near XYZ Campus today,2024-10-01 06:33:00,Instagram,291,Positive
+p8805,I saw police issue near Tech Institute today,2024-06-12 18:41:00,Twitter,98,Negative
+p5646,I saw safety issue near Tech Institute today,2024-03-17 11:19:00,Twitter,107,Negative
+p8877,I saw unsafe issue near Tech Institute today,2024-11-02 22:35:00,Instagram,181,Positive
+p6141,I saw help issue near XYZ Campus today,2024-05-18 22:12:00,Twitter,176,Negative
+p6660,I saw harassment issue near North College today,2024-06-19 21:15:00,Instagram,124,Positive
+p2195,I saw unsafe issue near North College today,2024-04-17 20:58:00,Twitter,259,Neutral
+p5206,I saw protest issue near Tech Institute today,2024-09-09 13:59:00,Instagram,186,Positive
+p2917,I saw safety issue near ABC University today,2024-09-18 00:37:00,Instagram,194,Negative
+p9923,I saw safety issue near ABC University today,2024-08-08 14:46:00,Twitter,168,Negative
+p6845,I saw unsafe issue near North College today,2024-07-26 16:29:00,Instagram,254,Positive
+p7583,I saw harassment issue near North College today,2024-01-08 16:01:00,Twitter,134,Positive
+p6997,I saw mental health issue near ABC University today,2024-02-18 21:27:00,Twitter,278,Negative
+p1939,I saw unsafe issue near ABC University today,2024-06-07 22:43:00,Instagram,236,Neutral
+p8519,I saw help issue near XYZ Campus today,2024-04-28 16:43:00,Twitter,82,Negative
+p4919,I saw harassment issue near ABC University today,2024-05-10 16:06:00,Twitter,156,Positive
+p6353,I saw harassment issue near XYZ Campus today,2024-04-05 06:26:00,Twitter,3,Positive
+p8536,I saw mental health issue near Tech Institute today,2024-06-03 12:15:00,Instagram,29,Negative
+p9941,I saw mental health issue near ABC University today,2024-01-31 10:29:00,Twitter,252,Neutral
+p5174,I saw help issue near North College today,2024-04-18 08:37:00,Instagram,282,Negative
+p1318,I saw unsafe issue near ABC University today,2024-04-04 01:59:00,Instagram,207,Positive
+p7655,I saw police issue near XYZ Campus today,2024-04-10 06:05:00,Instagram,234,Positive
+p3609,I saw unsafe issue near Tech Institute today,2024-07-25 17:54:00,Instagram,193,Positive
+p7851,I saw help issue near XYZ Campus today,2024-02-11 11:20:00,Instagram,168,Neutral
+p6449,I saw help issue near North College today,2024-05-05 13:47:00,Instagram,104,Negative
+p2774,I saw police issue near Tech Institute today,2024-01-11 06:20:00,Twitter,252,Neutral
+p5343,I saw mental health issue near ABC University today,2024-02-20 12:02:00,Instagram,208,Positive
+p2977,I saw help issue near Tech Institute today,2024-09-15 05:42:00,Twitter,83,Neutral
+p6859,I saw mental health issue near North College today,2024-08-07 08:11:00,Instagram,195,Neutral
+p8660,I saw police issue near XYZ Campus today,2024-10-13 22:44:00,Twitter,97,Negative
+p8943,I saw harassment issue near Tech Institute today,2024-12-28 08:12:00,Instagram,14,Neutral
+p4781,I saw protest issue near ABC University today,2024-08-15 09:00:00,Instagram,196,Negative
+p1464,I saw help issue near ABC University today,2024-06-30 13:39:00,Twitter,247,Negative
+p7867,I saw protest issue near North College today,2024-01-31 17:25:00,Twitter,264,Negative
+p2258,I saw harassment issue near Tech Institute today,2024-09-03 08:33:00,Twitter,289,Positive
+p1388,I saw harassment issue near ABC University today,2024-04-07 22:52:00,Instagram,140,Neutral
+p5494,I saw safety issue near XYZ Campus today,2024-10-17 02:59:00,Twitter,107,Negative
+p3689,I saw protest issue near ABC University today,2024-08-20 06:44:00,Twitter,152,Negative
+p3687,I saw police issue near ABC University today,2024-08-11 20:32:00,Twitter,67,Neutral
+p1036,I saw police issue near Tech Institute today,2024-11-03 04:47:00,Twitter,143,Positive
+p8313,I saw protest issue near North College today,2024-04-23 05:59:00,Twitter,92,Neutral
+p1625,I saw police issue near ABC University today,2024-05-19 17:09:00,Twitter,248,Negative
+p1186,I saw protest issue near Tech Institute today,2024-01-05 19:34:00,Instagram,248,Neutral
+p6785,I saw police issue near North College today,2024-03-03 12:19:00,Instagram,64,Neutral
+p2092,I saw police issue near XYZ Campus today,2024-10-14 17:54:00,Twitter,174,Negative
+p8223,I saw harassment issue near Tech Institute today,2024-04-26 20:54:00,Twitter,107,Neutral
+p6951,I saw help issue near Tech Institute today,2024-06-22 08:36:00,Instagram,71,Positive
+p4744,I saw unsafe issue near XYZ Campus today,2024-06-18 18:26:00,Twitter,22,Neutral
+p5435,I saw police issue near XYZ Campus today,2024-07-04 23:56:00,Instagram,192,Negative
+p3706,I saw help issue near ABC University today,2024-12-14 21:40:00,Instagram,285,Positive
+p5019,I saw protest issue near XYZ Campus today,2024-04-20 13:56:00,Instagram,283,Neutral
+p9809,I saw protest issue near North College today,2024-09-28 18:52:00,Instagram,255,Positive
+p1520,I saw harassment issue near ABC University today,2024-11-24 03:05:00,Instagram,134,Positive
+p6674,I saw protest issue near North College today,2024-08-25 21:02:00,Twitter,73,Negative
+p1218,I saw protest issue near Tech Institute today,2024-03-28 13:58:00,Instagram,113,Neutral
+p5276,I saw safety issue near ABC University today,2024-11-12 10:10:00,Instagram,92,Positive
+p3181,I saw unsafe issue near ABC University today,2024-10-20 22:18:00,Instagram,193,Neutral
+p8686,I saw help issue near XYZ Campus today,2024-08-06 00:59:00,Twitter,82,Negative
+p6474,I saw mental health issue near Tech Institute today,2024-03-04 03:10:00,Instagram,154,Positive
+p4661,I saw harassment issue near North College today,2024-11-22 05:48:00,Twitter,185,Neutral
+p5490,I saw unsafe issue near ABC University today,2024-11-05 10:02:00,Instagram,18,Positive
+p3076,I saw harassment issue near North College today,2024-06-22 23:11:00,Twitter,237,Positive
+p8502,I saw protest issue near XYZ Campus today,2024-05-20 16:34:00,Instagram,152,Neutral
+p4701,I saw help issue near ABC University today,2024-03-13 06:50:00,Twitter,122,Neutral
+p3493,I saw protest issue near XYZ Campus today,2024-02-04 15:21:00,Instagram,233,Negative
+p1266,I saw protest issue near North College today,2024-04-24 19:25:00,Twitter,290,Negative
+p3731,I saw mental health issue near North College today,2024-06-22 05:50:00,Twitter,84,Negative
+p9052,I saw harassment issue near Tech Institute today,2024-01-28 13:47:00,Instagram,201,Negative
+p2692,I saw mental health issue near Tech Institute today,2024-02-07 18:10:00,Twitter,248,Negative
+p7961,I saw mental health issue near Tech Institute today,2024-07-21 08:43:00,Twitter,168,Neutral
+p2871,I saw mental health issue near XYZ Campus today,2024-09-11 00:03:00,Instagram,247,Neutral
+p5715,I saw help issue near ABC University today,2024-11-26 00:34:00,Twitter,13,Negative
+p1795,I saw police issue near Tech Institute today,2024-05-20 12:50:00,Instagram,216,Negative
+p8538,I saw harassment issue near ABC University today,2024-10-07 14:07:00,Twitter,46,Positive
+p8301,I saw police issue near Tech Institute today,2024-06-11 13:19:00,Instagram,253,Positive
+p2812,I saw help issue near XYZ Campus today,2024-10-14 11:05:00,Twitter,139,Negative
+p5042,I saw protest issue near XYZ Campus today,2024-09-15 19:09:00,Instagram,253,Neutral
+p8363,I saw safety issue near Tech Institute today,2024-06-09 04:38:00,Twitter,47,Positive
+p8555,I saw unsafe issue near North College today,2024-04-05 08:11:00,Instagram,3,Neutral
+p3987,I saw police issue near ABC University today,2024-03-26 19:54:00,Instagram,235,Neutral
+p1020,I saw help issue near ABC University today,2024-12-06 03:07:00,Instagram,11,Negative
+p7737,I saw harassment issue near XYZ Campus today,2024-02-01 08:30:00,Twitter,49,Positive
+p1880,I saw mental health issue near North College today,2024-08-06 12:40:00,Instagram,266,Positive
+p8612,I saw unsafe issue near Tech Institute today,2024-06-06 11:03:00,Instagram,111,Positive
+p6682,I saw help issue near Tech Institute today,2024-08-27 18:06:00,Twitter,139,Neutral
+p5878,I saw unsafe issue near Tech Institute today,2024-10-03 19:21:00,Twitter,207,Negative
+p5679,I saw unsafe issue near ABC University today,2024-02-21 03:12:00,Instagram,192,Neutral
+p7669,I saw help issue near Tech Institute today,2024-08-29 21:28:00,Instagram,282,Positive
+p5593,I saw protest issue near Tech Institute today,2024-02-15 03:11:00,Instagram,154,Negative
+p5770,I saw harassment issue near XYZ Campus today,2024-09-10 16:10:00,Instagram,223,Positive
+p4978,I saw mental health issue near North College today,2024-04-22 09:17:00,Twitter,244,Positive
+p7898,I saw mental health issue near Tech Institute today,2024-11-01 19:56:00,Twitter,6,Neutral
+p9593,I saw harassment issue near XYZ Campus today,2024-10-03 06:56:00,Twitter,219,Neutral
+p3800,I saw harassment issue near XYZ Campus today,2024-03-28 19:34:00,Instagram,133,Positive
+p6722,I saw safety issue near ABC University today,2024-02-25 10:40:00,Instagram,182,Negative
+p8168,I saw help issue near Tech Institute today,2024-07-22 07:58:00,Instagram,299,Neutral
+p1776,I saw police issue near XYZ Campus today,2024-12-13 19:08:00,Twitter,94,Positive
+p5843,I saw help issue near North College today,2024-05-30 04:35:00,Instagram,8,Positive
+p2346,I saw unsafe issue near ABC University today,2024-01-03 23:19:00,Twitter,99,Positive
+p9100,I saw mental health issue near Tech Institute today,2024-10-23 14:01:00,Twitter,132,Positive
+p9101,I saw harassment issue near North College today,2024-02-21 07:05:00,Twitter,129,Negative
+p9760,I saw harassment issue near XYZ Campus today,2024-09-15 12:19:00,Instagram,76,Neutral
+p4809,I saw mental health issue near ABC University today,2024-12-04 18:46:00,Twitter,106,Positive
+p1402,I saw harassment issue near North College today,2024-11-20 06:53:00,Instagram,143,Neutral
+p9502,I saw harassment issue near XYZ Campus today,2024-02-02 02:38:00,Instagram,259,Neutral
+p3743,I saw help issue near Tech Institute today,2024-09-08 22:12:00,Twitter,4,Negative
+p8164,I saw police issue near Tech Institute today,2024-12-29 00:47:00,Twitter,59,Neutral
+p8331,I saw protest issue near Tech Institute today,2024-06-05 13:36:00,Instagram,239,Negative
+p6364,I saw harassment issue near XYZ Campus today,2024-01-13 13:56:00,Twitter,118,Positive
+p9799,I saw harassment issue near North College today,2024-09-19 17:03:00,Twitter,3,Negative
+p4836,I saw help issue near Tech Institute today,2024-04-05 18:30:00,Instagram,122,Negative
+p9177,I saw safety issue near North College today,2024-04-23 14:32:00,Instagram,155,Neutral
+p7840,I saw unsafe issue near North College today,2024-07-19 18:31:00,Twitter,214,Negative
+p6759,I saw safety issue near Tech Institute today,2024-04-13 20:32:00,Twitter,2,Positive
+p8454,I saw unsafe issue near North College today,2024-03-05 17:02:00,Instagram,178,Negative
+p2579,I saw protest issue near Tech Institute today,2024-03-21 06:31:00,Instagram,275,Neutral
+p6066,I saw safety issue near Tech Institute today,2024-02-04 16:26:00,Twitter,217,Negative
+p2939,I saw unsafe issue near XYZ Campus today,2024-03-04 02:45:00,Instagram,216,Neutral
+p5722,I saw protest issue near Tech Institute today,2024-08-23 14:48:00,Twitter,106,Neutral
+p7793,I saw police issue near XYZ Campus today,2024-05-16 22:28:00,Instagram,227,Negative
+p1068,I saw harassment issue near North College today,2024-03-18 03:39:00,Instagram,134,Negative
+p5040,I saw safety issue near Tech Institute today,2024-06-28 11:11:00,Twitter,182,Neutral
+p1543,I saw protest issue near Tech Institute today,2024-06-12 23:34:00,Twitter,32,Positive
+p1722,I saw safety issue near ABC University today,2024-10-04 15:32:00,Instagram,147,Neutral
+p2289,I saw mental health issue near ABC University today,2024-10-09 04:56:00,Instagram,135,Positive
+p4995,I saw police issue near North College today,2024-05-20 21:42:00,Twitter,250,Neutral
+p7323,I saw unsafe issue near North College today,2024-03-19 07:42:00,Instagram,163,Negative
+p8246,I saw help issue near ABC University today,2024-08-16 11:59:00,Twitter,274,Positive
+p8630,I saw protest issue near North College today,2024-09-22 09:49:00,Instagram,183,Positive
+p6083,I saw protest issue near North College today,2024-12-17 17:49:00,Instagram,11,Positive
+p9576,I saw harassment issue near Tech Institute today,2024-05-15 01:12:00,Twitter,191,Negative
+p6910,I saw mental health issue near ABC University today,2024-08-03 22:57:00,Twitter,103,Neutral
+p5539,I saw protest issue near Tech Institute today,2024-05-31 19:29:00,Twitter,112,Negative
+p9123,I saw safety issue near XYZ Campus today,2024-01-16 09:57:00,Instagram,12,Positive
+p7339,I saw safety issue near North College today,2024-12-29 09:48:00,Twitter,112,Neutral
+p4197,I saw protest issue near Tech Institute today,2024-03-30 19:36:00,Twitter,95,Negative
+p1198,I saw help issue near North College today,2024-11-20 13:53:00,Twitter,0,Neutral
+p5761,I saw unsafe issue near XYZ Campus today,2024-09-09 02:57:00,Instagram,300,Negative
+p8178,I saw mental health issue near ABC University today,2024-04-15 04:39:00,Instagram,243,Neutral
+p5493,I saw help issue near Tech Institute today,2024-08-10 23:49:00,Instagram,195,Positive
+p2770,I saw mental health issue near ABC University today,2024-09-04 10:23:00,Twitter,281,Positive
+p8596,I saw unsafe issue near North College today,2024-06-26 10:10:00,Instagram,135,Negative
+p9231,I saw protest issue near XYZ Campus today,2024-02-08 22:44:00,Twitter,58,Negative
+p1602,I saw harassment issue near North College today,2024-08-20 02:26:00,Twitter,1,Neutral
+p6478,I saw help issue near North College today,2024-10-20 15:53:00,Twitter,217,Neutral
+p5034,I saw police issue near XYZ Campus today,2024-09-12 12:31:00,Instagram,84,Negative
+p3366,I saw unsafe issue near ABC University today,2024-11-22 01:43:00,Instagram,146,Positive
+p4238,I saw unsafe issue near ABC University today,2024-08-31 20:54:00,Twitter,109,Positive
+p5555,I saw help issue near Tech Institute today,2024-04-21 07:29:00,Instagram,182,Neutral
+p1334,I saw unsafe issue near XYZ Campus today,2024-10-02 18:45:00,Twitter,208,Neutral
+p9116,I saw protest issue near Tech Institute today,2024-02-21 10:17:00,Twitter,174,Neutral
+p4441,I saw protest issue near XYZ Campus today,2024-03-13 01:12:00,Twitter,3,Neutral
+p7744,I saw protest issue near XYZ Campus today,2024-08-31 22:31:00,Instagram,96,Positive
+p4820,I saw protest issue near XYZ Campus today,2024-09-11 14:30:00,Instagram,168,Negative
+p2732,I saw help issue near ABC University today,2024-12-20 19:49:00,Twitter,179,Negative
+p6079,I saw harassment issue near Tech Institute today,2024-07-22 13:31:00,Twitter,185,Neutral
+p6658,I saw help issue near North College today,2024-01-31 07:36:00,Instagram,18,Positive
+p6350,I saw safety issue near North College today,2024-04-13 01:58:00,Twitter,112,Neutral
+p2376,I saw mental health issue near North College today,2024-04-11 03:06:00,Instagram,291,Neutral
+p2391,I saw harassment issue near XYZ Campus today,2024-06-19 02:02:00,Twitter,157,Positive
+p8250,I saw police issue near North College today,2024-10-19 14:00:00,Instagram,75,Negative
+p3447,I saw protest issue near XYZ Campus today,2024-01-15 06:50:00,Instagram,242,Positive
+p8262,I saw protest issue near North College today,2024-05-26 18:31:00,Instagram,288,Positive
+p7633,I saw police issue near North College today,2024-08-30 00:28:00,Twitter,139,Positive
+p2456,I saw harassment issue near North College today,2024-09-26 10:59:00,Twitter,17,Neutral
+p2847,I saw unsafe issue near Tech Institute today,2024-01-04 14:13:00,Twitter,296,Positive
+p6552,I saw safety issue near North College today,2024-09-19 13:21:00,Instagram,128,Negative
+p4971,I saw unsafe issue near Tech Institute today,2024-09-10 10:45:00,Instagram,65,Neutral
+p6245,I saw help issue near North College today,2024-07-12 11:39:00,Instagram,29,Neutral
+p5012,I saw mental health issue near Tech Institute today,2024-03-13 01:20:00,Twitter,148,Positive
+p7763,I saw protest issue near ABC University today,2024-03-22 14:59:00,Twitter,95,Neutral
+p6211,I saw unsafe issue near Tech Institute today,2024-07-28 22:07:00,Instagram,268,Positive
+p1933,I saw police issue near ABC University today,2024-01-08 12:50:00,Instagram,1,Neutral
+p9230,I saw unsafe issue near XYZ Campus today,2024-02-29 14:39:00,Instagram,80,Neutral
+p9370,I saw unsafe issue near Tech Institute today,2024-10-21 05:08:00,Instagram,162,Positive
+p1631,I saw unsafe issue near XYZ Campus today,2024-05-04 09:19:00,Twitter,142,Neutral
+p4743,I saw safety issue near Tech Institute today,2024-09-25 21:10:00,Twitter,71,Neutral
+p7565,I saw police issue near XYZ Campus today,2024-01-23 18:25:00,Instagram,244,Neutral
+p4198,I saw protest issue near ABC University today,2024-11-07 14:09:00,Instagram,243,Positive
+p9716,I saw unsafe issue near Tech Institute today,2024-09-13 07:27:00,Instagram,298,Neutral
+p4386,I saw police issue near ABC University today,2024-01-29 05:19:00,Twitter,109,Negative
+p4957,I saw help issue near Tech Institute today,2024-04-10 01:29:00,Twitter,45,Negative
+p5946,I saw protest issue near ABC University today,2024-09-25 08:24:00,Twitter,35,Negative
+p7479,I saw unsafe issue near North College today,2024-03-13 18:56:00,Twitter,159,Positive
+p7593,I saw harassment issue near Tech Institute today,2024-02-26 11:30:00,Twitter,130,Neutral
+p8413,I saw protest issue near North College today,2024-03-13 16:12:00,Twitter,29,Negative
+p3776,I saw safety issue near North College today,2024-08-01 01:12:00,Twitter,20,Positive
+p5509,I saw safety issue near North College today,2024-09-09 23:02:00,Instagram,18,Positive
+p7943,I saw safety issue near ABC University today,2024-05-20 08:44:00,Twitter,164,Negative
+p4509,I saw unsafe issue near Tech Institute today,2024-01-28 12:48:00,Instagram,50,Negative
+p9157,I saw help issue near Tech Institute today,2024-01-25 15:22:00,Twitter,23,Positive
+p1379,I saw safety issue near North College today,2024-01-03 22:56:00,Twitter,155,Positive
+p6330,I saw safety issue near Tech Institute today,2024-01-29 02:39:00,Instagram,248,Positive
+p7000,I saw police issue near XYZ Campus today,2024-04-23 19:17:00,Instagram,135,Neutral
+p3656,I saw help issue near Tech Institute today,2024-06-24 08:51:00,Instagram,213,Negative
+p5752,I saw harassment issue near Tech Institute today,2024-07-21 22:36:00,Twitter,238,Positive
+p2752,I saw harassment issue near ABC University today,2024-01-30 16:03:00,Twitter,19,Negative
+p2852,I saw mental health issue near North College today,2024-05-20 12:54:00,Twitter,41,Negative
+p4260,I saw mental health issue near North College today,2024-10-27 21:38:00,Twitter,77,Positive
+p4159,I saw protest issue near Tech Institute today,2024-03-20 13:41:00,Twitter,123,Neutral
+p9323,I saw protest issue near Tech Institute today,2024-05-17 04:58:00,Instagram,149,Neutral
+p5927,I saw help issue near North College today,2024-07-05 14:09:00,Instagram,281,Neutral
+p9940,I saw help issue near ABC University today,2024-07-14 12:16:00,Instagram,54,Positive
+p9491,I saw harassment issue near XYZ Campus today,2024-08-17 22:59:00,Twitter,63,Neutral
+p8837,I saw protest issue near ABC University today,2024-06-29 16:04:00,Instagram,81,Positive
+p2206,I saw police issue near Tech Institute today,2024-07-04 23:03:00,Twitter,126,Neutral
+p3845,I saw help issue near ABC University today,2024-11-07 15:14:00,Twitter,105,Negative
+p5453,I saw help issue near XYZ Campus today,2024-03-23 03:54:00,Twitter,279,Positive
+p1473,I saw protest issue near XYZ Campus today,2024-11-27 21:39:00,Instagram,59,Neutral
+p2974,I saw mental health issue near ABC University today,2024-03-16 19:45:00,Twitter,117,Positive
+p1806,I saw police issue near Tech Institute today,2024-07-01 16:46:00,Instagram,285,Negative
+p7135,I saw help issue near ABC University today,2024-03-16 03:06:00,Twitter,230,Positive
+p8615,I saw harassment issue near North College today,2024-02-09 16:31:00,Twitter,280,Negative
+p1797,I saw protest issue near Tech Institute today,2024-02-01 01:47:00,Twitter,146,Neutral
+p3953,I saw harassment issue near ABC University today,2024-04-12 21:32:00,Twitter,264,Negative
+p8305,I saw safety issue near Tech Institute today,2024-06-22 10:51:00,Instagram,186,Neutral
+p6269,I saw police issue near ABC University today,2024-07-25 22:53:00,Instagram,132,Neutral
+p8878,I saw unsafe issue near Tech Institute today,2024-11-24 15:33:00,Twitter,52,Positive
+p8027,I saw protest issue near North College today,2024-09-29 06:03:00,Instagram,298,Negative
+p4949,I saw safety issue near North College today,2024-04-29 18:25:00,Twitter,233,Negative
+p9618,I saw harassment issue near XYZ Campus today,2024-01-29 01:38:00,Instagram,246,Neutral
+p8346,I saw police issue near ABC University today,2024-09-09 07:19:00,Twitter,16,Negative
+p1873,I saw mental health issue near North College today,2024-11-03 20:35:00,Instagram,160,Negative
+p6593,I saw unsafe issue near North College today,2024-09-12 03:28:00,Twitter,25,Negative
+p4305,I saw help issue near North College today,2024-07-17 15:50:00,Instagram,114,Negative
+p1132,I saw police issue near North College today,2024-03-06 06:31:00,Instagram,132,Neutral
+p4063,I saw police issue near Tech Institute today,2024-01-13 15:54:00,Twitter,86,Negative
+p6611,I saw unsafe issue near XYZ Campus today,2024-12-04 22:38:00,Instagram,47,Neutral
+p6293,I saw unsafe issue near ABC University today,2024-10-01 04:53:00,Twitter,55,Negative
+p3487,I saw protest issue near XYZ Campus today,2024-10-08 11:59:00,Twitter,119,Neutral
+p3262,I saw unsafe issue near Tech Institute today,2024-07-03 04:44:00,Instagram,15,Positive
+p4351,I saw safety issue near North College today,2024-10-19 13:22:00,Twitter,239,Negative
+p1864,I saw unsafe issue near ABC University today,2024-02-06 12:51:00,Instagram,160,Neutral
+p3577,I saw harassment issue near XYZ Campus today,2024-09-16 17:28:00,Twitter,137,Neutral
+p4092,I saw help issue near Tech Institute today,2024-09-10 18:52:00,Twitter,240,Negative
+p3382,I saw unsafe issue near XYZ Campus today,2024-01-12 23:37:00,Twitter,113,Neutral
+p8840,I saw safety issue near ABC University today,2024-07-12 20:16:00,Twitter,28,Neutral
+p9686,I saw safety issue near Tech Institute today,2024-10-13 17:49:00,Twitter,183,Positive
+p1299,I saw safety issue near Tech Institute today,2024-06-16 17:13:00,Instagram,257,Neutral
+p8287,I saw protest issue near North College today,2024-08-31 08:59:00,Twitter,214,Negative
+p5289,I saw unsafe issue near North College today,2024-02-14 14:54:00,Instagram,231,Neutral
+p8898,I saw unsafe issue near ABC University today,2024-01-30 01:09:00,Twitter,80,Neutral
+p6112,I saw protest issue near XYZ Campus today,2024-09-30 04:00:00,Instagram,211,Neutral
+p2962,I saw mental health issue near XYZ Campus today,2024-03-14 21:53:00,Instagram,38,Neutral
+p7127,I saw safety issue near XYZ Campus today,2024-02-11 16:02:00,Twitter,187,Neutral
+p3016,I saw help issue near Tech Institute today,2024-10-15 00:07:00,Instagram,74,Positive
+p6053,I saw help issue near North College today,2024-12-21 18:16:00,Twitter,284,Positive
+p8604,I saw mental health issue near XYZ Campus today,2024-11-04 17:08:00,Twitter,17,Positive
+p2179,I saw mental health issue near Tech Institute today,2024-07-22 18:46:00,Twitter,153,Negative
+p3415,I saw safety issue near XYZ Campus today,2024-09-14 18:36:00,Twitter,29,Negative
+p9243,I saw safety issue near ABC University today,2024-11-28 01:05:00,Twitter,44,Positive
+p8333,I saw protest issue near XYZ Campus today,2024-05-09 20:08:00,Instagram,97,Positive
+p1772,I saw protest issue near North College today,2024-01-02 07:36:00,Instagram,197,Positive
+p7121,I saw police issue near ABC University today,2024-02-09 13:55:00,Twitter,20,Positive
+p4552,I saw protest issue near ABC University today,2024-02-12 02:15:00,Instagram,84,Neutral
+p1030,I saw protest issue near North College today,2024-09-14 17:19:00,Instagram,33,Positive
+p3463,I saw unsafe issue near XYZ Campus today,2024-10-26 21:07:00,Instagram,71,Positive
+p9851,I saw mental health issue near Tech Institute today,2024-09-05 21:10:00,Instagram,141,Neutral
+p1903,I saw police issue near ABC University today,2024-06-24 16:45:00,Twitter,94,Positive
+p3949,I saw help issue near ABC University today,2024-04-20 11:38:00,Twitter,218,Neutral
+p7786,I saw mental health issue near North College today,2024-11-27 04:02:00,Twitter,39,Positive
+p1999,I saw unsafe issue near Tech Institute today,2024-04-23 05:52:00,Instagram,8,Positive
+p1678,I saw protest issue near North College today,2024-12-06 14:40:00,Twitter,196,Neutral
+p9553,I saw unsafe issue near XYZ Campus today,2024-02-16 12:27:00,Twitter,2,Neutral
+p1107,I saw safety issue near ABC University today,2024-01-29 04:08:00,Instagram,271,Neutral
+p1965,I saw protest issue near XYZ Campus today,2024-05-24 14:54:00,Instagram,178,Positive
+p8327,I saw safety issue near XYZ Campus today,2024-12-21 09:31:00,Instagram,158,Neutral
+p7441,I saw protest issue near ABC University today,2024-09-20 09:51:00,Twitter,172,Negative
+p1166,I saw protest issue near North College today,2024-08-26 16:45:00,Twitter,236,Negative
+p2633,I saw mental health issue near XYZ Campus today,2024-05-13 02:39:00,Instagram,28,Positive
+p7139,I saw mental health issue near ABC University today,2024-09-08 19:20:00,Instagram,122,Neutral
+p5801,I saw protest issue near North College today,2024-09-13 17:46:00,Twitter,31,Neutral
+p2772,I saw unsafe issue near ABC University today,2024-05-21 01:33:00,Instagram,298,Negative
+p3024,I saw safety issue near North College today,2024-10-20 19:38:00,Instagram,20,Neutral
+p2684,I saw police issue near ABC University today,2024-05-01 12:43:00,Instagram,146,Neutral
+p3622,I saw mental health issue near Tech Institute today,2024-02-11 15:31:00,Twitter,4,Neutral
+p7787,I saw mental health issue near North College today,2024-06-01 22:13:00,Instagram,56,Positive
+p4700,I saw unsafe issue near North College today,2024-01-25 19:01:00,Twitter,299,Negative
+p9587,I saw protest issue near XYZ Campus today,2024-01-08 12:51:00,Twitter,98,Negative
+p3701,I saw harassment issue near North College today,2024-05-12 20:33:00,Instagram,45,Neutral
+p5188,I saw protest issue near XYZ Campus today,2024-06-17 04:10:00,Twitter,13,Positive
+p8391,I saw safety issue near XYZ Campus today,2024-04-25 14:41:00,Twitter,236,Neutral
+p5771,I saw help issue near ABC University today,2024-06-05 16:41:00,Twitter,99,Positive
+p4494,I saw safety issue near North College today,2024-10-11 04:34:00,Instagram,249,Negative
+p1230,I saw safety issue near XYZ Campus today,2024-10-01 10:51:00,Instagram,111,Neutral
+p3242,I saw unsafe issue near Tech Institute today,2024-07-12 23:18:00,Twitter,148,Negative
+p6243,I saw mental health issue near ABC University today,2024-08-23 09:17:00,Instagram,130,Negative
+p7613,I saw harassment issue near Tech Institute today,2024-08-13 18:32:00,Instagram,209,Negative
+p4250,I saw police issue near XYZ Campus today,2024-04-06 23:15:00,Twitter,51,Neutral
+p5663,I saw police issue near XYZ Campus today,2024-11-30 16:35:00,Instagram,287,Negative
+p6445,I saw help issue near ABC University today,2024-05-04 04:14:00,Instagram,168,Neutral
+p2392,I saw harassment issue near XYZ Campus today,2024-12-07 19:31:00,Twitter,294,Positive
+p9761,I saw harassment issue near Tech Institute today,2024-07-04 08:21:00,Instagram,291,Positive
+p2676,I saw police issue near Tech Institute today,2024-12-25 00:12:00,Instagram,32,Neutral
+p4551,I saw unsafe issue near Tech Institute today,2024-08-26 06:58:00,Instagram,10,Negative
+p6308,I saw protest issue near ABC University today,2024-04-01 00:49:00,Instagram,132,Positive
+p6913,I saw police issue near North College today,2024-10-26 19:03:00,Instagram,33,Neutral
+p7102,I saw police issue near North College today,2024-06-01 06:21:00,Instagram,21,Positive
+p6954,I saw safety issue near XYZ Campus today,2024-03-26 23:39:00,Instagram,3,Negative
+p7922,I saw harassment issue near Tech Institute today,2024-10-10 02:27:00,Instagram,61,Negative
+p1182,I saw harassment issue near Tech Institute today,2024-12-17 00:18:00,Instagram,219,Neutral
+p4992,I saw harassment issue near Tech Institute today,2024-07-29 02:42:00,Twitter,67,Negative
+p9849,I saw police issue near North College today,2024-06-10 10:19:00,Twitter,42,Positive
+p3129,I saw police issue near XYZ Campus today,2024-10-13 10:47:00,Instagram,266,Neutral
+p3761,I saw harassment issue near ABC University today,2024-09-07 09:11:00,Instagram,30,Negative
+p5258,I saw mental health issue near XYZ Campus today,2024-06-29 10:03:00,Instagram,35,Neutral
+p1345,I saw safety issue near XYZ Campus today,2024-09-26 23:40:00,Instagram,58,Negative
+p4474,I saw mental health issue near ABC University today,2024-09-21 20:00:00,Instagram,266,Negative
+p3047,I saw mental health issue near North College today,2024-10-17 05:23:00,Twitter,235,Positive
+p1680,I saw unsafe issue near Tech Institute today,2024-11-29 10:23:00,Instagram,44,Neutral
+p6166,I saw harassment issue near XYZ Campus today,2024-07-01 14:47:00,Instagram,83,Negative
+p7489,I saw harassment issue near XYZ Campus today,2024-08-07 15:28:00,Instagram,224,Positive
+p9453,I saw help issue near XYZ Campus today,2024-08-15 04:07:00,Twitter,155,Positive
+p9814,I saw harassment issue near Tech Institute today,2024-09-02 10:29:00,Twitter,7,Neutral
+p3944,I saw mental health issue near Tech Institute today,2024-05-13 05:07:00,Twitter,158,Negative
+p3228,I saw harassment issue near Tech Institute today,2024-07-18 00:53:00,Twitter,121,Negative
+p2745,I saw unsafe issue near Tech Institute today,2024-10-31 19:39:00,Twitter,123,Positive
+p2459,I saw unsafe issue near Tech Institute today,2024-03-24 05:31:00,Twitter,68,Negative
+p6136,I saw unsafe issue near XYZ Campus today,2024-04-02 04:32:00,Instagram,171,Positive
+p7845,I saw police issue near North College today,2024-09-08 14:46:00,Instagram,173,Negative
+p9006,I saw mental health issue near North College today,2024-12-17 07:24:00,Instagram,207,Positive
+p7047,I saw safety issue near North College today,2024-10-11 01:47:00,Twitter,86,Negative
+p9568,I saw mental health issue near XYZ Campus today,2024-10-19 10:17:00,Twitter,40,Neutral
+p2150,I saw safety issue near ABC University today,2024-10-22 05:49:00,Instagram,276,Positive
+p5898,I saw police issue near XYZ Campus today,2024-07-23 04:28:00,Instagram,114,Positive
+p2758,I saw police issue near Tech Institute today,2024-04-04 18:05:00,Twitter,170,Negative
+p3086,I saw mental health issue near Tech Institute today,2024-09-14 10:55:00,Twitter,1,Positive
+p5205,I saw harassment issue near ABC University today,2024-05-11 15:40:00,Twitter,79,Neutral
+p2798,I saw mental health issue near XYZ Campus today,2024-11-16 12:00:00,Instagram,15,Neutral
+p5905,I saw unsafe issue near North College today,2024-05-05 04:21:00,Twitter,210,Negative
+p3941,I saw safety issue near ABC University today,2024-03-05 02:00:00,Twitter,57,Negative
+p4616,I saw mental health issue near XYZ Campus today,2024-08-09 02:34:00,Instagram,158,Positive
+p6536,I saw unsafe issue near North College today,2024-01-11 08:48:00,Instagram,221,Positive
+p2280,I saw safety issue near ABC University today,2024-04-20 11:20:00,Twitter,40,Neutral
+p1125,I saw help issue near XYZ Campus today,2024-12-25 16:29:00,Instagram,93,Positive
+p3372,I saw help issue near Tech Institute today,2024-08-03 15:25:00,Instagram,165,Positive
+p2080,I saw help issue near North College today,2024-11-02 17:56:00,Twitter,7,Neutral
+p1597,I saw unsafe issue near ABC University today,2024-02-27 02:04:00,Instagram,158,Neutral
+p7732,I saw protest issue near North College today,2024-12-29 18:24:00,Twitter,70,Neutral
+p9691,I saw safety issue near North College today,2024-08-11 04:16:00,Instagram,16,Positive
+p4476,I saw police issue near XYZ Campus today,2024-09-10 15:29:00,Instagram,28,Neutral
+p2076,I saw help issue near North College today,2024-07-08 00:34:00,Twitter,127,Neutral
+p5489,I saw mental health issue near North College today,2024-07-31 15:22:00,Instagram,252,Neutral
+p3757,I saw protest issue near ABC University today,2024-08-26 21:50:00,Instagram,261,Negative
+p9269,I saw harassment issue near XYZ Campus today,2024-05-08 04:48:00,Twitter,220,Positive
+p5406,I saw safety issue near North College today,2024-12-16 15:12:00,Twitter,147,Neutral
+p7772,I saw help issue near North College today,2024-12-21 03:35:00,Twitter,35,Negative
+p9944,I saw harassment issue near Tech Institute today,2024-10-01 19:57:00,Instagram,136,Neutral
+p9922,I saw safety issue near ABC University today,2024-11-22 16:49:00,Instagram,264,Positive
+p1220,I saw unsafe issue near North College today,2024-06-02 23:43:00,Twitter,280,Neutral
+p1489,I saw safety issue near ABC University today,2024-04-18 15:32:00,Instagram,137,Negative
+p8494,I saw protest issue near XYZ Campus today,2024-07-12 08:00:00,Instagram,255,Negative
+p1914,I saw safety issue near North College today,2024-09-24 03:02:00,Twitter,288,Negative
+p7726,I saw help issue near North College today,2024-09-27 11:32:00,Instagram,151,Positive
+p8775,I saw harassment issue near North College today,2024-01-15 15:10:00,Instagram,39,Negative
+p9845,I saw police issue near North College today,2024-07-04 21:27:00,Twitter,120,Neutral
+p4041,I saw help issue near Tech Institute today,2024-09-15 17:40:00,Instagram,41,Neutral
+p9042,I saw safety issue near ABC University today,2024-11-12 10:30:00,Twitter,88,Negative
+p4807,I saw mental health issue near ABC University today,2024-12-04 19:50:00,Twitter,89,Positive
+p5881,I saw mental health issue near ABC University today,2024-01-12 01:51:00,Twitter,24,Positive
+p2093,I saw help issue near Tech Institute today,2024-09-10 23:56:00,Instagram,0,Neutral
+p3567,I saw safety issue near XYZ Campus today,2024-08-27 00:50:00,Twitter,269,Negative
+p2527,I saw help issue near Tech Institute today,2024-06-09 10:02:00,Instagram,241,Positive
+p5217,I saw unsafe issue near ABC University today,2024-05-18 05:06:00,Instagram,214,Neutral
+p3205,I saw police issue near North College today,2024-09-05 20:17:00,Instagram,26,Neutral
+p2736,I saw help issue near Tech Institute today,2024-05-26 07:32:00,Instagram,243,Positive
+p8720,I saw protest issue near Tech Institute today,2024-07-15 02:07:00,Instagram,157,Negative
+p5675,I saw safety issue near Tech Institute today,2024-05-12 19:35:00,Instagram,28,Positive
+p2720,I saw help issue near ABC University today,2024-05-30 05:40:00,Twitter,158,Negative
+p3141,I saw police issue near XYZ Campus today,2024-05-03 09:55:00,Instagram,219,Negative
+p6318,I saw mental health issue near Tech Institute today,2024-06-29 02:30:00,Instagram,139,Neutral
+p9518,I saw unsafe issue near XYZ Campus today,2024-04-17 08:05:00,Instagram,11,Negative
+p7019,I saw police issue near ABC University today,2024-06-30 09:13:00,Twitter,38,Positive
+p6314,I saw unsafe issue near ABC University today,2024-01-28 15:59:00,Twitter,243,Neutral
+p1663,I saw safety issue near ABC University today,2024-02-22 23:16:00,Twitter,11,Neutral
+p9597,I saw unsafe issue near ABC University today,2024-11-08 13:15:00,Instagram,10,Positive
+p5518,I saw harassment issue near Tech Institute today,2024-07-12 01:45:00,Instagram,144,Negative
+p2875,I saw protest issue near XYZ Campus today,2024-05-13 21:10:00,Instagram,129,Neutral
+p2970,I saw police issue near North College today,2024-04-27 13:04:00,Instagram,245,Neutral
+p8057,I saw police issue near North College today,2024-04-20 10:31:00,Twitter,207,Positive
+p6252,I saw protest issue near Tech Institute today,2024-03-09 12:23:00,Twitter,60,Positive
+p2555,I saw safety issue near North College today,2024-07-31 15:27:00,Twitter,138,Negative
+p8798,I saw unsafe issue near Tech Institute today,2024-03-10 06:43:00,Twitter,225,Positive
+p4416,I saw help issue near XYZ Campus today,2024-09-04 07:13:00,Twitter,255,Negative
+p6800,I saw harassment issue near Tech Institute today,2024-03-09 12:13:00,Twitter,130,Negative
+p1989,I saw harassment issue near Tech Institute today,2024-05-28 13:54:00,Twitter,220,Negative
+p4699,I saw unsafe issue near XYZ Campus today,2024-12-19 03:18:00,Twitter,248,Positive
+p3831,I saw unsafe issue near XYZ Campus today,2024-11-20 13:14:00,Twitter,175,Negative
+p4578,I saw protest issue near North College today,2024-10-15 23:43:00,Twitter,291,Neutral
+p5156,I saw mental health issue near ABC University today,2024-02-05 10:33:00,Twitter,111,Neutral
+p2021,I saw mental health issue near XYZ Campus today,2024-04-29 21:28:00,Twitter,129,Neutral
+p5319,I saw harassment issue near XYZ Campus today,2024-06-05 17:54:00,Instagram,220,Negative
+p7057,I saw safety issue near XYZ Campus today,2024-04-23 17:28:00,Twitter,265,Neutral
+p1416,I saw unsafe issue near North College today,2024-12-01 18:58:00,Instagram,58,Neutral
+p4887,I saw police issue near ABC University today,2024-04-29 20:56:00,Twitter,6,Neutral
+p1591,I saw safety issue near ABC University today,2024-05-18 09:08:00,Instagram,67,Neutral
+p7342,I saw protest issue near ABC University today,2024-07-13 16:49:00,Instagram,194,Positive
+p2492,I saw police issue near ABC University today,2024-11-19 06:15:00,Twitter,99,Positive
+p7967,I saw unsafe issue near XYZ Campus today,2024-08-05 13:53:00,Instagram,83,Negative
+p1530,I saw unsafe issue near Tech Institute today,2024-01-09 21:57:00,Instagram,13,Neutral
+p9469,I saw police issue near ABC University today,2024-10-16 23:40:00,Instagram,225,Negative
+p7554,I saw safety issue near ABC University today,2024-01-29 10:54:00,Twitter,70,Positive
+p5279,I saw unsafe issue near ABC University today,2024-02-25 17:21:00,Twitter,131,Negative
+p4513,I saw police issue near Tech Institute today,2024-09-10 07:32:00,Twitter,55,Negative
+p3002,I saw harassment issue near Tech Institute today,2024-10-04 14:52:00,Instagram,213,Negative
+p6763,I saw unsafe issue near XYZ Campus today,2024-12-24 02:12:00,Twitter,196,Negative
+p8853,I saw protest issue near ABC University today,2024-11-01 23:35:00,Instagram,262,Positive
+p6718,I saw protest issue near North College today,2024-02-22 10:44:00,Instagram,49,Negative
+p8872,I saw police issue near XYZ Campus today,2024-11-03 04:52:00,Instagram,126,Neutral
+p6469,I saw safety issue near XYZ Campus today,2024-01-28 08:07:00,Instagram,204,Negative
+p6524,I saw police issue near Tech Institute today,2024-05-01 06:18:00,Instagram,207,Negative
+p4445,I saw police issue near XYZ Campus today,2024-05-15 17:38:00,Twitter,290,Negative
+p7929,I saw mental health issue near XYZ Campus today,2024-11-12 12:01:00,Twitter,292,Neutral
+p4555,I saw harassment issue near ABC University today,2024-04-07 11:55:00,Twitter,257,Positive
+p1031,I saw protest issue near North College today,2024-04-04 08:53:00,Instagram,150,Positive
+p4779,I saw harassment issue near XYZ Campus today,2024-04-30 05:23:00,Instagram,288,Positive
+p9127,I saw unsafe issue near Tech Institute today,2024-03-06 06:27:00,Twitter,14,Neutral
+p9284,I saw police issue near XYZ Campus today,2024-10-17 06:58:00,Instagram,126,Positive
+p1770,I saw mental health issue near XYZ Campus today,2024-10-15 14:27:00,Instagram,109,Positive
+p8689,I saw mental health issue near North College today,2024-09-27 00:39:00,Twitter,236,Neutral
+p9070,I saw police issue near Tech Institute today,2024-02-15 10:33:00,Instagram,205,Positive
+p4266,I saw unsafe issue near ABC University today,2024-09-21 10:50:00,Instagram,81,Positive
+p6663,I saw mental health issue near ABC University today,2024-05-26 12:13:00,Instagram,12,Negative
+p8854,I saw unsafe issue near ABC University today,2024-03-23 22:35:00,Twitter,99,Neutral
+p1393,I saw police issue near ABC University today,2024-12-08 20:55:00,Twitter,232,Neutral
+p5911,I saw harassment issue near Tech Institute today,2024-01-22 09:09:00,Twitter,204,Positive
+p5122,I saw police issue near ABC University today,2024-12-01 02:14:00,Twitter,35,Negative
+p2447,I saw protest issue near Tech Institute today,2024-03-25 10:40:00,Instagram,87,Negative
+p4850,I saw police issue near Tech Institute today,2024-05-15 06:02:00,Instagram,164,Neutral
+p2334,I saw help issue near ABC University today,2024-04-11 12:45:00,Instagram,83,Neutral
+p2325,I saw police issue near XYZ Campus today,2024-04-12 14:53:00,Twitter,248,Negative
+p9404,I saw protest issue near North College today,2024-01-08 20:31:00,Instagram,141,Neutral
+p8438,I saw safety issue near XYZ Campus today,2024-05-30 23:03:00,Twitter,95,Positive
+p2879,I saw unsafe issue near North College today,2024-02-03 04:06:00,Instagram,279,Neutral
+p1049,I saw police issue near Tech Institute today,2024-08-19 12:45:00,Twitter,26,Negative
+p9488,I saw harassment issue near ABC University today,2024-07-02 16:14:00,Twitter,212,Negative
+p1449,I saw mental health issue near XYZ Campus today,2024-10-07 07:46:00,Instagram,297,Neutral
+p9955,I saw mental health issue near ABC University today,2024-06-06 22:03:00,Twitter,235,Neutral
+p5792,I saw police issue near XYZ Campus today,2024-08-19 21:29:00,Twitter,124,Positive
+p5283,I saw unsafe issue near Tech Institute today,2024-07-25 05:01:00,Instagram,205,Negative
+p3985,I saw mental health issue near ABC University today,2024-07-30 12:52:00,Instagram,277,Negative
+p8281,I saw protest issue near XYZ Campus today,2024-04-21 03:13:00,Twitter,125,Positive
+p3014,I saw mental health issue near Tech Institute today,2024-12-13 19:16:00,Instagram,188,Positive
+p2714,I saw harassment issue near Tech Institute today,2024-03-07 05:24:00,Twitter,74,Positive
+p8731,I saw safety issue near Tech Institute today,2024-05-18 19:50:00,Instagram,14,Positive
+p8443,I saw unsafe issue near XYZ Campus today,2024-11-27 03:08:00,Instagram,247,Positive
+p5083,I saw help issue near Tech Institute today,2024-10-25 19:12:00,Twitter,283,Neutral
+p3913,I saw harassment issue near XYZ Campus today,2024-08-25 01:38:00,Twitter,85,Positive
+p2014,I saw safety issue near North College today,2024-12-07 16:43:00,Twitter,285,Neutral
+p6979,I saw protest issue near ABC University today,2024-11-16 04:15:00,Instagram,29,Negative
+p2091,I saw safety issue near XYZ Campus today,2024-07-18 23:58:00,Instagram,64,Neutral
+p8151,I saw police issue near ABC University today,2024-03-26 11:16:00,Instagram,187,Neutral
+p3240,I saw unsafe issue near ABC University today,2024-04-29 18:33:00,Instagram,95,Positive
+p7949,I saw safety issue near North College today,2024-12-08 12:49:00,Instagram,297,Negative
+p6258,I saw protest issue near North College today,2024-12-04 20:42:00,Instagram,144,Neutral
+p5497,I saw mental health issue near North College today,2024-11-27 08:18:00,Twitter,162,Negative
+p3254,I saw harassment issue near ABC University today,2024-06-29 02:10:00,Instagram,71,Neutral
+p5485,I saw mental health issue near XYZ Campus today,2024-02-20 19:10:00,Twitter,180,Negative
+p8267,I saw help issue near XYZ Campus today,2024-09-14 20:31:00,Twitter,102,Negative
+p7941,I saw police issue near Tech Institute today,2024-10-22 21:21:00,Instagram,265,Neutral
+p4319,I saw harassment issue near North College today,2024-02-07 13:32:00,Instagram,169,Neutral
+p5688,I saw mental health issue near Tech Institute today,2024-11-12 10:55:00,Twitter,38,Positive
+p5277,I saw help issue near North College today,2024-08-31 06:31:00,Twitter,69,Neutral
+p3607,I saw safety issue near ABC University today,2024-02-06 19:57:00,Instagram,292,Positive
+p4706,I saw harassment issue near Tech Institute today,2024-04-15 21:42:00,Instagram,93,Neutral
+p2291,I saw police issue near North College today,2024-12-07 22:58:00,Twitter,51,Negative
+p9566,I saw mental health issue near XYZ Campus today,2024-12-07 06:03:00,Twitter,94,Neutral
+p3605,I saw unsafe issue near Tech Institute today,2024-04-10 18:44:00,Instagram,289,Neutral
+p1559,I saw harassment issue near ABC University today,2024-02-25 15:00:00,Instagram,78,Negative
+p3168,I saw harassment issue near Tech Institute today,2024-06-25 20:19:00,Twitter,220,Neutral
