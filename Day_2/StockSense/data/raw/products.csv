@@ -1,0 +1,11 @@
+product_id,category,sub_category,brand,mrp,cost_price,shelf_life_days,supplier_id
+P01,Dairy,Fresh Milk,Amul,66.0,52.0,3.0,SUP001
+P02,Dairy,Butter,Amul,275.0,235.0,180.0,SUP001
+P03,Bakery,Whole Wheat Bread,Britannia,45.0,34.0,6.0,SUP002
+P04,Produce,Royal Gala Apples,FarmFresh,180.0,130.0,12.0,SUP003
+P05,Produce,Organic Potatoes,GreenFields,40.0,25.0,,SUP003
+P06,Beverages,Tea Gold,Tata,340.0,270.0,365.0,SUP004
+P07,Personal Care,Antiseptic Soap,Dettol,125.0,95.0,730.0,SUP005
+P08,Staples,Basmati Rice 5kg,India Gate,520.0,415.0,365.0,SUP006
+P09,Staples,Sunflower Oil 1L,Fortune,175.0,140.0,270.0,SUP006
+P10,Snacks,Gold Biscuits,Parle,60.0,45.0,180.0,

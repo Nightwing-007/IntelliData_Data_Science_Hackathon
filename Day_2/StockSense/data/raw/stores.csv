@@ -1,0 +1,5 @@
+store_id,city,store_type,floor_area_sqft,avg_daily_customers,region
+S01,Mumbai,Hypermarket,28500,3400.0,West
+S02,Delhi,Supermarket,16200,2250.0,North
+S03,Bengaluru,Express,6400,,South
+S04,Kolkata,Supermarket,14800,1850.0,East
