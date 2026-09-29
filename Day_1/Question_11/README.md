@@ -2,136 +2,106 @@
 
 ## Executive Summary
 
-This study delivers an enterprise-grade econometric and diagnostic assessment of compensation structures across **500 employees** spanning four strategic global engineering hubs: **New York**, **London**, **Toronto**, and **Bangalore**. Utilizing rigorous exploratory data analysis, peer-demographic benchmarking, and ordinary least squares (OLS) linear modeling, this report decodes the primary drivers of base salary, evaluates performance incentive efficacy, identifies internal equity risks, and detects critical salary anomalies.
+This study delivers an enterprise-grade econometric and diagnostic assessment of compensation structures across **500 employees** spanning four strategic global engineering hubs: **New York**, **London**, **Toronto**, and **Bangalore**. Utilizing rigorous exploratory data analysis, peer-demographic benchmarking, and ordinary least squares (OLS) linear modeling, this project decodes the primary determinants of base salary, evaluates merit bonus distributions, and uncovers hidden pay disparities.
 
-The predictive regression model accounts for **90.77% of total salary variance** ($R^2 = 0.9077$, $\text{RMSE} = \$16,308.30$), establishing that organizational hierarchy and geographic location serve as the foremost determinants of compensation. Concurrently, peer-relative audit heuristics revealed **14 anomalous employee compensation packages** exceeding peer group medians by **50% to 134%**, highlighting pressing pay equity vulnerabilities that necessitate immediate executive remediation.
-
----
-
-## Dataset Schema
-
-The underlying enterprise dataset contains 500 validated, clean employee records formatted according to the following specifications:
-
-| Column Name | Data Type | Description | Sample Value |
-| :--- | :---: | :--- | :--- |
-| `Employee_ID` | `object` / `str` | Unique alphanumeric identifier for each employee | `EMP0001` |
-| `Designation` | `object` / `str` | Organizational hierarchy level (5 tiers: Junior Developer to Director) | `Junior Developer` |
-| `Experience` | `int64` | Total professional tenure in years (ranging from 1 to 24) | `22` |
-| `Education` | `object` / `str` | Highest educational degree attained (Bachelor, Master, PhD) | `Bachelor` |
-| `Location` | `object` / `str` | Primary employment city hub (New York, London, Toronto, Bangalore) | `New York` |
-| `Performance_Score` | `int64` | Annual performance appraisal rating (1 = Unsatisfactory to 5 = Outstanding) | `3` |
-| `Salary` | `int64` | Base annual compensation denominated in US Dollars ($) | `118999` |
-| `Salary_Increment` | `int64` | Annual merit-based salary bonus amount ($) | `5949` |
+The predictive regression model accounts for **90.77% of total salary variance** ($R^2 = 0.9077$, $\text{RMSE} = \$16,308.30$), proving that organizational hierarchy and geographic location serve as the foremost determinants of compensation. Simultaneously, peer-relative audit heuristics detected **14 anomalous employee compensation packages** earning **50% to 134% above peer group medians**, predominantly concentrated among junior engineering cohorts. This pitch report provides executive leadership with the data-driven roadmap required to safeguard internal equity, eliminate wage compression, and optimize talent retention.
 
 ---
 
-## System Architecture
+## Business Problem
 
-```text
-Day_1/Question_11/
-├── README.md                                  # Executive Intelligence Report
-├── data/
-│   ├── hr_salary_dataset.csv                  # Raw synthetic generation output
-│   └── cleaned_hr_data.csv                    # Phase 1 validated and typed dataset
-├── src/
-│   ├── generate_data.py                       # Synthetic data generation engine
-│   ├── phase1_cleaning.py                     # Schema validation & type casting
-│   ├── phase2_eda.py                          # Cross-sectional EDA & distribution analysis
-│   ├── phase3_analytics.py                    # Experience tenure & merit increment analytics
-│   ├── phase4_anomalies.py                    # Peer-group anomaly & equity audit engine
-│   └── phase5_ml_model.py                     # Multivariate econometric regression model
-└── visualizations/
-    ├── hr_eda_visualizations.png              # 1x2 boxplot distribution charts
-    ├── hr_performance_experience.png          # 1x2 regression & merit increment charts
-    └── hr_compensation_anomalies.png          # Outlier scatter plot audit visualization
-```
+Ensuring fair, transparent compensation and retaining high-performing technical talent are critical strategic challenges for global technology enterprises. In multinational organizations, compensation practices frequently suffer from:
+1. **Unmonitored Wage Drift & Equity Risks**: Discretionary hiring offers, counter-offers, and unstandardized sign-on bonuses create severe internal inequities where peer employees with identical roles and tenure experience wide compensation disparities.
+2. **Talent Attrition in Emerging Tech Hubs**: Fast-growing engineering centers like Bangalore face fierce external recruitment competition. If regional cost adjustments fail to reflect local market realities, the firm risks losing top engineering performers.
+3. **Misalignment of Performance and Base Pay**: Blurring the boundary between fixed base salaries and variable merit incentives can inflate fixed structural costs without driving performance accountability.
+4. **Credential Inflation**: Requiring advanced academic degrees (Master's, PhD) for software engineering positions without empirical evidence of wage or productivity premiums adds unnecessary hiring friction and compensation overhead.
 
 ---
 
-## Analytical Methodology
+## Methodology
 
-### Phase 1: Ingestion & Schema Integrity Validation
-Raw records were subjected to strict schema checks. Verified zero missing or null entries across all 8 attributes. Enforced strict numeric integer casting on monetary fields (`Salary`, `Salary_Increment`), preventing categorical bleed and floating-point rounding inaccuracies.
-
-### Phase 2: Exploratory Data Analysis & Cross-Sectional Benchmarking
-Parametric summary statistics revealed an organizational mean salary of **$117,709.32** ($\sigma = \$50,963.23$, $\text{IQR} = \$81,736 - \$143,500$). Grouped multi-level analyses isolated wide structural spreads across job titles (Director: **$222,019** vs. Junior Developer: **$84,863**) and office locations (New York: **$144,245** vs. Bangalore: **$74,040**). Side-by-side distribution boxplots were ordered by median benchmarks to evaluate dispersion and identify outlier skewness.
-
-### Phase 3: Career Progression & Incentive Structuring
-Career longevity was segmented into five discrete tranches: `0-5`, `6-10`, `11-15`, `16-20`, and `21+` years. Linear regression trendlines isolated an average annual return of approximately **$1,892 to $2,000 per year of experience**. Incentive analysis mapped performance ratings (1 to 5) directly to percentage increment rates, confirming that performance bonuses function as an independent variable overlay rather than a structural determinant of base pay.
-
-### Phase 4: Peer-Relative Anomaly Detection
-Rather than applying naive global thresholds (e.g., global z-scores), the audit implemented granular **peer-group conditioning**:
-$$\text{Peer\_Median} = \text{median}(\text{Salary} \mid \text{Designation}, \text{Location}, \text{Experience\_Group})$$
-$$\text{Variance \%} = \frac{\text{Salary} - \text{Peer\_Median}}{\text{Peer\_Median}} \times 100$$
-Employees exhibiting a **Variance % > 50%** were isolated, audited, and mapped onto a high-contrast diagnostic scatter plot.
-
-### Phase 5: Multivariate Econometric Regression
-An Ordinary Least Squares (OLS) regression model was trained on an 80/20 train-test partition using one-hot encoded covariates (`drop_first=True`) to quantify the marginal dollar impact of each demographic and organizational factor.
-
----
-
-## The 7 Key Findings
-
-```text
-========================================================================================
-                          EXECUTIVE DASHBOARD OF CORE FINDINGS
-========================================================================================
-1. GEOGRAPHIC ARBITRAGE DOMINATES BASE PAY
-   New York carries a +$67,875.58 premium, London +$58,777.76, and Toronto +$49,420.80
-   relative to the Bangalore baseline, reflecting strict regional cost-of-living adjustments.
-
-2. TENURE ACCRUES PREDICTABLE LINEAR RETURNS
-   Each additional year of professional experience reliably yields +$1,891.90 in base
-   annual compensation across all technical functions.
-
-3. HIERARCHICAL STRATIFICATION CREATES WIDE SALARY TIERS
-   Holding other variables constant, executive leadership commands substantial premiums:
-   Director baseline vs. Manager (-$52,349), Team Lead (-$71,208), Senior Dev (-$106,128),
-   and Junior Dev (-$131,172).
-
-4. PERFORMANCE RATINGS DRIVE BONUS INCREMENTS, NOT BASE SALARY
-   Annual appraisals are rigorously tied to incentive percentages (Rating 1: 0.00%,
-   Rating 2: 1.94%, Rating 3: 4.89%, Rating 4: 7.90%, Rating 5: 11.95%), with zero
-   statistically significant distortion on base salary scales (-$266 coefficient).
-
-5. FORMAL EDUCATION EXHIBITS MINIMAL DIRECT WAGE IMPACT
-   Holding role and experience constant, advanced degrees (Master's: -$1,871; PhD: -$6,934)
-   do not guarantee higher compensation over Bachelor-degree holders in software engineering.
-
-6. FOURTEEN SEVERE COMPENSATION OUTLIERS IDENTIFIED
-   Fourteen individuals earn between 62% and 134% above their peer group median, primarily
-   concentrated in Junior Developer and Team Lead positions in overseas hubs.
-
-7. HIGH PREDICTIVE FIDELITY CONFIRMS SYSTEMIC STRUCTURE
-   The econometric model explains 90.77% of compensation variance (R2 = 0.9077, RMSE = $16,308),
-   demonstrating that the organization adheres to a consistent global compensation formula.
-========================================================================================
-```
-
----
-
-## Strategic HR Action Plan
+The analytical framework integrates descriptive, econometric, and diagnostic auditing techniques across five sequential phases:
 
 ```mermaid
 flowchart LR
-    A["Immediate Anomaly Audit"] --> B["Banding Modernization"]
-    B["Banding Modernization"] --> C["Performance Incentive Alignment"]
-    C["Performance Incentive Alignment"] --> D["Annual Equity Governance"]
+    A["Raw Ingestion & Schema Audit"] --> B["Exploratory Data Analysis (EDA)"]
+    B --> C["Tenure & Merit Modeling"]
+    C --> D["Peer-Group Variance Auditing"]
+    D --> E["Multivariate Econometric Regression (R² = 0.9077)"]
+    E --> F["Interactive Streamlit Dashboard"]
 ```
 
-### 1. Immediate Pay Equity Audit & Outlier Investigation (Q1)
-* **Targeted Review**: Commission an immediate compensation audit into the **14 identified anomalous employees** (e.g., `EMP0167`, `EMP0106`, `EMP0496`).
-* **Root Cause Diagnostics**: Determine whether variances stem from legacy hiring sign-on packages, out-of-cycle retention counter-offers, data entry errors, or unrecorded specialized competencies.
-* **Red-Circling Policy**: For employees verified as over-compensated, apply a temporary "red-circling" policy (freeze base salary while allowing performance bonus participation) until market band convergence.
+### 1. Exploratory Data Analysis (EDA)
+- Analyzed distribution curves, central tendencies, and interquartile ranges ($\text{Mean} = \$117,709.32$, $\sigma = \$50,963.23$, $\text{IQR} = \$81,736 - \$143,500$).
+- Assessed cross-sectional salary dispersion across job titles (Director: **$222,019** vs. Junior Developer: **$84,863**) and geographic locations (New York: **$144,245** vs. Bangalore: **$74,040**).
 
-### 2. Standardization of Global Compensation Bands (Q2)
-* **Tiered Range Formulation**: Establish formal `Min-Mid-Max` compensation bands per designation per location with a maximum spread of $\pm 20\%$ around the target market median.
-* **Elimination of Arbitrary Off-Cycle Adjustments**: Implement strict compensation committee sign-offs for any candidate offer or promotion exceeding $10\%$ of the midpoint.
+### 2. Peer-Group Variance Calculation & Anomaly Auditing
+Rather than relying on naive global statistical metrics, the audit segmented employees into granular peer groups conditioned on **Job Title**, **Location**, and **Experience Tranche** (`0-5`, `6-10`, `11-15`, `16-20`, `21+` years):
+$$\text{Peer\_Median} = \text{median}(\text{Salary} \mid \text{Designation}, \text{Location}, \text{Experience\_Group})$$
+$$\text{Variance \%} = \frac{\text{Salary} - \text{Peer\_Median}}{\text{Peer\_Median}} \times 100$$
+Employees exhibiting a **$\text{Variance \%} > 50\%$** above their peer median were isolated, audited, and flagged as compensation outliers.
 
-### 3. Formalized Experience-to-Leveling Matrix (Q3)
-* Align career tenure bands with promotional expectations: Junior Developer (`0-4` yrs), Senior Developer (`5-9` yrs), Team Lead (`10-14` yrs), Manager/Director (`15+` yrs).
-* Eliminate tenure compression by ensuring promotions from Junior to Senior incorporate a baseline step-increase matching the modeled **$25,000 to $30,000 promotion differential**.
+### 3. Multivariate Econometric Regression
+Trained an Ordinary Least Squares (OLS) regression model on an 80/20 train-test partition using one-hot encoded categorical covariates (`drop_first=True`) to quantify the ceteris paribus marginal dollar contribution of each attribute:
+- **Model Fit**: $R^2 = 0.9077$ (Test set), $\text{Adjusted } R^2 = 0.9054$
+- **Standard Error**: $\text{RMSE} = \$16,308.30$
 
-### 4. Continuous Anomaly Monitoring Engine (Ongoing)
-* Embed the `phase4_anomalies.py` algorithm into the HR Information System (HRIS) compensation cycle.
-* Automatically flag potential anomalies during annual review cycles before executive sign-off and payroll transmission.
+---
+
+## Key Insights
+
+* **Location Premiums Drive Base Pay**: Regional cost-of-living adjustments create massive geographic arbitrage. Holding title and tenure constant, **New York commands a +$67,875.58 premium**, **London +$58,777.76**, and **Toronto +$49,420.80** relative to the Bangalore benchmark ($74,040 baseline).
+* **Rigid Hierarchical Stratification**: Job title is the strongest structural predictor of compensation. Holding other covariates equal, executive leadership commands substantial salary step-ups: **Director** baseline vs. **Manager** (-$52,349), **Team Lead** (-$71,208), **Senior Developer** (-$106,128), and **Junior Developer** (-$131,172).
+* **Predictable Linear Experience Scaling**: Professional tenure accrues reliable linear returns averaging **+$1,891.90 per additional year of experience** across all engineering functions, confirming that longevity is steadily rewarded.
+* **The 14 Junior Developer Anomalies**: The peer-variance audit identified **14 severe compensation outliers** earning **50% to 134% above peer medians** (e.g., `EMP0167`, `EMP0106`, `EMP0496`). These anomalies are heavily concentrated in Junior Developer and overseas roles, indicating unmonitored hiring sign-on packages and off-cycle counter-offers.
+* **Formal Education Disconnect**: Advanced academic credentials (Master's: -$1,871; PhD: -$6,934) show zero statistically significant premium over Bachelor's degrees in engineering base compensation when tenure and designation are controlled.
+* **Decoupling of Performance Appraisals & Base Pay**: Annual performance ratings (1 to 5) directly dictate variable merit increment percentages (Rating 1: 0.00%, Rating 2: 1.94%, Rating 3: 4.89%, Rating 4: 7.90%, Rating 5: 11.95%) while exhibiting negligible distortion on fixed base salaries (-$266 OLS coefficient).
+
+---
+
+## Action Plan
+
+```mermaid
+flowchart TD
+    A["Immediate Anomaly Audit & Red-Circling"] --> B["Revise Education & Hiring Standards"]
+    B --> C["Bangalore Retention & Market Calibration"]
+    C --> D["Continuous HRIS Automated Equity Engine"]
+```
+
+### 1. Immediate Audit of Anomalies & Red-Circling Policy (Q1)
+- **Targeted Forensic Review**: Commission a compensation review into the **14 identified anomalous employees** to evaluate hiring contracts, legacy sign-on bonuses, and unrecorded technical roles.
+- **Implement Red-Circling**: For confirmed over-compensated individuals, freeze base salaries while maintaining eligibility for performance bonuses until market salary bands catch up.
+
+### 2. Revising Education Requirements & Leveling Criteria (Q2)
+- **Drop Rigid Degree Prerequisites**: Eliminate strict Master's/PhD educational requirements from software engineering job descriptions, standardizing minimum entry qualifications to demonstrated technical competency.
+- **Competency-Based Leveling**: Realign career leveling matrices so promotions from Junior to Senior Developer are anchored to code delivery, system ownership, and tenure rather than formal academic pedigree.
+
+### 3. Adjusting Bangalore Retention Strategies (Q3)
+- **Calibrate Bangalore Compensation Bands**: Narrow the geographic spread between Bangalore and Western hubs by introducing local performance stock units (RSUs) and retention bonuses to curb talent poaching from competing tech multinationals.
+- **Tenure Progression Safeguards**: Introduce milestone step-increases for junior and mid-level engineers reaching the 3-year tenure mark to proactively mitigate competitive lateral moves.
+
+### 4. Continuous Automated Equity Governance (Ongoing)
+- **Embed Monitoring Engine into HRIS**: Integrate the peer-group variance algorithm directly into Workday/SAP SuccessFactors to automatically flag out-of-band salary recommendations during annual appraisal and promotion cycles before payroll authorization.
+
+---
+
+## Run Instructions
+
+### Prerequisites
+Ensure dependencies from `requirements.txt` are installed:
+```bash
+pip install -r requirements.txt
+```
+
+### Launch Interactive Streamlit Dashboard
+To launch the full interactive HR Analytics & Pay Equity dashboard:
+```bash
+streamlit run Day_1/Question_11/dashboard.py
+```
+
+### Dashboard Capabilities
+- **Overview & KPI Cards**: Real-time metrics on total payroll, headcount, average tenure, and top-line regression fidelity.
+- **Distribution Analytics**: Interactive boxplots, histograms, and violin plots segmented by designation, location, and education.
+- **Tenure & Merit Modeling**: Experience-to-salary regression trendlines and performance rating bonus breakdown.
+- **Peer Anomaly Explorer**: Interactive outlier scatter plot with filtering controls by location, title, and variance threshold.
+- **Live What-If Salary Calculator**: Interactive ML inference widget computing predicted market salary based on user inputs.
