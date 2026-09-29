@@ -3,6 +3,7 @@
 [![Python Version](https://img.shields.io/badge/Python-3.10%20%7C%203.11%20%7C%203.12-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.40%2B-FF4B4B.svg)](https://streamlit.io/)
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4%2B-F7931E.svg)](https://scikit-learn.org/)
+[![Plotly](https://img.shields.io/badge/Plotly-5.18%2B-3F4F75.svg)](https://plotly.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 An enterprise-grade, reproducible data science repository featuring econometric compensation modeling, natural language brand sentiment diagnostics, and AI-powered retail supply chain replenishment intelligence with interactive Streamlit prototypes.
@@ -25,11 +26,11 @@ This repository houses the end-to-end analytical solutions developed across all 
 * **Key Findings**: High-urgency student discourse concerning **campus protests** drove peak interaction velocity (**152.0 Average Engagement**). Baseline Naive Bayes accuracy of **24.49%** mathematically proved that unigram bag-of-words models fail on sarcastic social media context, recommending migration to deep learning transformer architectures (DistilBERT).
 * **Interactive Prototype**: Real-time post volume counters, interactive TF-IDF topic extractors, time-series keyword trajectory tracking, and sentiment model testing sandbox.
 
-### Track 3: StockSense Retail AI Replenishment (`Day_2/StockSense`)
-* **Domain**: Retail Supply Chain Optimization, Time-Series Demand Forecasting & Inventory Risk Intelligence.
-* **Core Methodology**: Relational data reconciliation ($\text{closing} = \max(0, \text{opening} + \text{received} - \text{sold})$ at the $1,240$-row Date $\times$ Store $\times$ Product grain), temporal/lag/inventory velocity feature engineering, and dual Random Forest modeling (Forecasting Regressor & Stockout Risk Classifier).
-* **Key Findings**: Active promotions surge daily demand by **+222.7%** ($p < 0.001$), generating **83.3%** of all observed stockouts. The Random Forest risk model achieved perfect discriminative accuracy (**ROC-AUC: 1.0000**), identifying **$57,552.00 in revenue at risk** and prescribing **4,656 units** in targeted replenishment orders.
-* **Interactive Prototype**: Executive KPI cards, manager-ready replenishment table with color-coded risk alerts, model explainability bar chart, and one-click order dispatch CSV export.
+### Track 3: StockSense Retail AI Replenishment (`Day_2/StockSense`) ⭐ _Enhanced_
+* **Domain**: Retail Supply Chain Optimization, Time-Series Demand Forecasting, Safety Stock Buffering & Inventory Risk Intelligence.
+* **Core Methodology**: Relational data reconciliation ($\text{closing} = \max(0, \text{opening} + \text{received} - \text{sold})$ at the $1,240$-row Date $\times$ Store $\times$ Product grain), **advanced 17-feature engineering** (EWMA, demand acceleration, inventory turnover, stock velocity, days-since-restock, promo×weekend interactions), and **hyperparameter-tuned dual Random Forest modeling** (Forecasting Regressor with RandomizedSearchCV & Stockout Risk Classifier with 7 features).
+* **Key Findings**: Active promotions surge daily demand by **+222.7%** ($p < 0.001$), generating **83.3%** of all observed stockouts. The Random Forest risk model achieved perfect discriminative accuracy (**ROC-AUC: 1.0000**, **PR-AUC: 1.0000**), with `inventory_turnover` emerging as a new #3 driver (23.85%). The safety-stock-buffered intelligence layer identified **$59,216 in revenue at risk**, prescribed **9,830 units** in targeted replenishment orders, and flagged **$168,253 in recoverable overstock capital** across 33 low-risk items.
+* **Interactive Prototype (v2.0)**: Tabbed layout (Overview, Replenishment, Analytics, Explainability) with Plotly interactive charts, dynamic risk threshold sliders, promotion simulation (+220%), store performance comparison, category reorder heatmap, Top 10 urgent actions panel, days-until-stockout countdown, cost intelligence dashboard, dark mode toggle, and CSV/Excel export.
 
 ---
 
@@ -39,7 +40,7 @@ This repository houses the end-to-end analytical solutions developed across all 
 | :--- | :--- | :--- | :--- | :--- |
 | **Day 1: Track 1** | Enterprise HR & Pay Equity | [Day_1/Question_11/README.md](Day_1/Question_11/README.md) | `streamlit run Day_1/Question_11/dashboard.py` | `python main.py --q11-pipeline` |
 | **Day 1: Track 2** | Social Media Brand Sentiment | [Day_1/Question_42/README.md](Day_1/Question_42/README.md) | `streamlit run Day_1/Question_42/dashboard.py` | `python main.py --q42-pipeline` |
-| **Day 2: Track 3** | StockSense Supply Chain AI | [Day_2/StockSense/README.md](Day_2/StockSense/README.md) | `streamlit run Day_2/StockSense/dashboard.py` | `python main.py --day2-pipeline` |
+| **Day 2: Track 3** | StockSense Supply Chain AI ⭐ | [Day_2/StockSense/README.md](Day_2/StockSense/README.md) | `streamlit run Day_2/StockSense/dashboard.py` | `python main.py --day2-pipeline` |
 
 ---
 
@@ -74,26 +75,27 @@ Data_Science_Hackathon/
 │   └── Question_42/                             # [Track 2] Campus Social Media Brand Analytics
 │       ├── README.md                            # Executive intelligence pitch report
 │       ├── dashboard.py                         # Interactive Streamlit social sentiment dashboard
-│       ├── eda_visualizations.png               # Engagement distribution & platform split grid
-│       ├── nlp_topics.png                       # TF-IDF unigram conversational topic ranking
-│       ├── topic_trends_over_time.png           # Longitudinal monthly keyword trajectory plot
-│       ├── naive_bayes_evaluation.png           # Multinomial Naive Bayes confusion matrix heatmap
 │       ├── data/
 │       │   ├── campus_social_media_dataset.csv  # Raw Twitter & Instagram post harvest
 │       │   └── cleaned_social_media_data.csv    # Deduplicated, normalized social dataset
-│       └── src/
-│           ├── eda.py                           # Volume profiling & engagement dispersion engine
-│           ├── nlp_analysis.py                  # Text cleaning & TF-IDF topic scoring pipeline
-│           ├── trend_analysis.py                # Time-series keyword tracking (protest, unsafe, etc.)
-│           └── model_pipeline.py                # Naive Bayes classification benchmark (24.49% Acc)
+│       ├── src/
+│       │   ├── eda.py                           # Volume profiling & engagement dispersion engine
+│       │   ├── nlp_analysis.py                  # Text cleaning & TF-IDF topic scoring pipeline
+│       │   ├── trend_analysis.py                # Time-series keyword tracking (protest, unsafe)
+│       │   └── model_pipeline.py                # Naive Bayes classification benchmark (24.49% Acc)
+│       └── visualizations/
+│           ├── eda_visualizations.png           # Engagement distribution & platform split grid
+│           ├── nlp_topics.png                   # TF-IDF unigram conversational topic ranking
+│           ├── topic_trends_over_time.png       # Longitudinal monthly keyword trajectory plot
+│           └── naive_bayes_evaluation.png       # Multinomial Naive Bayes confusion matrix heatmap
 │
 └── Day_2/
-    └── StockSense/                              # [Track 3] NovaMart Retail AI Replenishment Intelligence
+    └── StockSense/                              # [Track 3] NovaMart Retail AI Replenishment ⭐
         ├── README.md                            # Executive intelligence & jury pitch report
-        ├── dashboard.py                         # Streamlit prototype with manager-ready reorder table
+        ├── dashboard.py                         # Streamlit v2.0 — tabbed layout with Plotly charts
         ├── models/                              # Serialized Scikit-Learn models
-        │   ├── demand_model.pkl                 # Random Forest Regressor (7-Day Demand Forecast)
-        │   └── risk_model.pkl                   # Random Forest Classifier (Stockout Risk Probability)
+        │   ├── demand_model.pkl                 # Tuned RF Regressor (7-Day Demand Forecast)
+        │   └── risk_model.pkl                   # RF Classifier (7-Feature Stockout Risk)
         ├── reports/
         │   └── stocksense_eda.png               # 2x3 Publication-grade EDA diagnostic grid
         ├── data/
@@ -105,16 +107,16 @@ Data_Science_Hackathon/
         │   │   └── external_factors.csv         # 124 meteorological & calendar records
         │   └── processed/
         │       ├── master_analytics_dataset.csv # Cleaned master table (Date x Store x Product grain)
-        │       ├── model_ready_data.csv         # 680 rows x 41 lag, rolling & velocity features
+        │       ├── model_ready_data.csv         # 680 rows × 50 columns (17 engineered features)
         │       ├── test_set_predictions.csv     # Out-of-sample ML model predictions
-        │       └── scored_predictions.csv       # Prescriptive orders, risk tiers & revenue at risk
+        │       └── scored_predictions.csv       # Safety-stock orders, priority scores, cost savings
         └── src/
             ├── generate_stock_data.py           # Synthetic generator creating 5 raw CSV datasets
             ├── round1_data_prep.py              # Data cleansing, reconciliation & master integration
             ├── round1_eda_stats.py              # 2x3 EDA grid renderer & scipy hypothesis tests
-            ├── phase3_features.py               # Lags, trailing windows & supervised target engineering
-            ├── phase4_modeling.py               # Dual ML training (Forecasting & Stockout Risk)
-            └── phase5_intelligence.py           # Prescriptive reorder formula & explainability engine
+            ├── phase3_features.py               # Advanced 17-feature engineering (EWMA, velocity, etc.)
+            ├── phase4_modeling.py               # Hyperparameter-tuned dual ML with RandomizedSearchCV
+            └── phase5_intelligence.py           # Safety stock, priority scoring & cost intelligence
 ```
 
 ---
@@ -142,7 +144,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. Unified Repository Verification
-To automatically audit all 28 datasets, serialized models, visual assets, and scripts across all tracks:
+To automatically audit all datasets, serialized models, visual assets, and scripts across all tracks:
 ```bash
 python main.py --verify
 ```
@@ -179,7 +181,7 @@ streamlit run Day_1/Question_11/dashboard.py
 # Day 1 Track 2: Campus Social Media Brand Dashboard
 streamlit run Day_1/Question_42/dashboard.py
 
-# Day 2 Track 3: StockSense AI Replenishment Dashboard
+# Day 2 Track 3: StockSense AI Replenishment Dashboard (v2.0)
 streamlit run Day_2/StockSense/dashboard.py
 ```
 
@@ -187,13 +189,31 @@ streamlit run Day_2/StockSense/dashboard.py
 
 ## 🔬 Technology Stack
 
-* **Language**: Python 3.10 - 3.12
-* **Data Processing & Wrangling**: `pandas>=2.0.0`, `numpy>=1.24.0`
-* **Scientific Computing & Statistics**: `scipy>=1.11.0`
-* **Machine Learning & NLP**: `scikit-learn>=1.3.0`, `xgboost>=1.7.0`, `joblib>=1.3.0`
-* **Visualization & Reporting**: `matplotlib>=3.7.0`, `seaborn>=0.12.0`, `pillow>=10.0.0`
-* **Web Applications & Prototypes**: `streamlit>=1.30.0`
-* **Version Control**: Git / GitHub
+| Category | Technologies |
+|:---|:---|
+| **Language** | Python 3.10 – 3.12 |
+| **Data Processing** | `pandas>=2.0.0`, `numpy>=1.24.0` |
+| **Scientific Computing** | `scipy>=1.11.0` |
+| **Machine Learning** | `scikit-learn>=1.3.0`, `xgboost>=1.7.0`, `joblib>=1.3.0` |
+| **Visualization** | `matplotlib>=3.7.0`, `seaborn>=0.12.0`, `plotly>=5.18.0`, `pillow>=10.0.0` |
+| **Web Applications** | `streamlit>=1.30.0` |
+| **Data Export** | `openpyxl>=3.1.0` |
+| **Version Control** | Git / GitHub |
+
+---
+
+## 📊 StockSense v2.0 Dashboard Preview
+
+The StockSense dashboard features a modern tabbed interface with four sections:
+
+| Tab | Highlights |
+|:---|:---|
+| **📊 Overview** | Gradient KPI cards, pulsing risk indicators, safety stock metrics, Plotly risk donut chart, stock-vs-forecast scatter plot |
+| **📋 Replenishment** | Manager-ready table with risk color tags, Top 10 Urgent Actions, days-until-stockout countdown chart, CSV & Excel export, executive summary card |
+| **📈 Analytics** | Store performance comparison, category reorder heatmap (Store × Category), allocation breakdown, category demand sparklines |
+| **🧠 Explainability** | Plotly feature importance chart, supply chain insight cards, cost intelligence (overstock capital recovery) |
+
+**Interactive Controls**: Dark mode toggle, dynamic risk threshold sliders, promotion simulation (+220%), product search, multi-filter sidebar.
 
 ---
 
